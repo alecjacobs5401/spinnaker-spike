@@ -1,0 +1,8 @@
+version: '2'
+
+services:
+  photo_metadata:
+    build: .
+    image: photo_metadata
+    ports:
+      - "8000:3000"
